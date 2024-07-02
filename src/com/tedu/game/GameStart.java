@@ -11,6 +11,7 @@ public class GameStart {
         GameMainJPanel jp = new GameMainJPanel();
         GameListener listener = new GameListener();
         GameThread th = new GameThread();
+
         gj.setjPanel(jp);
         gj.setKeyListener(listener);
         gj.setThead(th);
